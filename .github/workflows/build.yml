@@ -59,7 +59,7 @@ jobs:
       run: unzip "${{env.METAFRM_UPLOADMODULE_ZIP}}"
       
     - name: Upload Module
-      run: dotnet "${{env.METAFRM_UPLOADMODULE_FILE}}" ${{env.DLL_ID}} "${{env.DLL_PATH}}" "${{secrets.METAFRM_UPLOADMODULE_ACCESSKEY}}"
+      run: dotnet "${{env.METAFRM_UPLOADMODULE_FILE}}" ${{env.DLL_ID}} "${{env.DLL_PATH}}" "${{secrets.METAFRM_UPLOADMODULE_ACCESSKEY}}" "${{github.event.pusher.email}}"
 
     - name: cd ..
       run: cd ..
