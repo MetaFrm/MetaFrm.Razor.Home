@@ -11,7 +11,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{6AAB
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{19986EC4-3111-45AD-8053-BFD61444AC5F}"
 	ProjectSection(SolutionItems) = preProject
-		.github\workflows\build.yml = .github\workflows\build.yml
+		.github\workflows\build_6.0.yml = .github\workflows\build_6.0.yml
+		.github\workflows\build_7.0.yml = .github\workflows\build_7.0.yml
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "솔루션 항목", "솔루션 항목", "{ABF4E21A-3914-46E8-8D03-230C28789DCA}"
@@ -23,6 +24,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "솔루션 항목", "솔루�
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ViewModels", "ViewModels", "{AB28AD5A-B8CA-47E8-A665-B714C42625E6}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MetaFrm.Razor.Home(net7.0)", "MetaFrm.Razor.Home(net7.0)\MetaFrm.Razor.Home(net7.0).csproj", "{D858591B-C780-4F16-8D91-4B9A72094B70}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +36,10 @@ Global
 		{2BD10F20-9039-4E03-88E7-5DBBBF7E1089}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2BD10F20-9039-4E03-88E7-5DBBBF7E1089}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2BD10F20-9039-4E03-88E7-5DBBBF7E1089}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D858591B-C780-4F16-8D91-4B9A72094B70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D858591B-C780-4F16-8D91-4B9A72094B70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D858591B-C780-4F16-8D91-4B9A72094B70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D858591B-C780-4F16-8D91-4B9A72094B70}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
